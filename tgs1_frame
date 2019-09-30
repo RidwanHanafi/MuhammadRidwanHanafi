@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="357dp"
+        android:layout_height="45dp"
+        android:text="REQUEST TO BOOK"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="443dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="660dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="332dp"
+                        android:layout_weight="1"
+                        app:srcCompat="@drawable/lulu" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:includeFontPadding="false"
+                            android:text="Kucing Lulu"
+                            android:textAlignment="center"
+                            android:textSize="30dp" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Kucing merupakan salah satu hewan peliharaan yang sangat populer di seluruh dunia, termasuk indonesia.  Dalam sejarah islam, kucing memiliki keistimewaan yang sangat luar biasa. Baginda Nabi Muhammad SAW bahkan berpesan kepada para sahabatnya untuk menyayangi kucing peliharaan, layaknya menyayangi keluarga sendiri.  Salah satu kucing yang dimiliki oleh nabi bernama Mueeza, kucing ini sungguh sangat luar biasa karena Mueeza selalu mengeong ketika mendengar adzan, dan seolah-olah suaranya terdengar seperti mengikuti lantunan suara adzan.  Pada abad 13, dalam dunia seni Islam, rupa kucing dijadikan mata uang sebagai bentuk manifestasi penghargaan masyarakat Islam.  Sedangkan di dunia sastra, para penyair tak ragu untuk membuat syair bagi kucing peliharaannya yang telah berjasa itu.  Dan masih banyak lagi kisah-kisah kucing yang sangat luar biasa dalam beradapab islam. Untuk selengkapnya, silakan langsung saja simak kisah selengkapnya berikut ini :  Kisah Mueeza, Kucing Kesayangan Rasulullah SAW  Diceritakan dalam suatu kisah, Nabi Muhammad SAW memiliki seekor kucing yang diberi nama Mueeza. Suatu saat, dikala nabi hendak mengambil jubahnya, di temuinya Mueeza sedang terlelap tidur dengan santai diatas jubahnya.  Tak ingin mengganggu hewan kesayangannya itu, nabi pun memotong belahan lengan yang ditiduri Mueeza dari jubahnya.  Ketika Nabi kembali ke rumah, Muezza terbangun dan merunduk sujud kepada majikannya. Sebagai balasan, nabi menyatakan kasih sayangnya dengan mengelus lembut ke badan mungil kucing itu sebanyak 3 kali."
+                            android:textAlignment="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
